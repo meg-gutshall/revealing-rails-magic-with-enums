@@ -1,5 +1,6 @@
 ---
 layout: author
+transition: slide-left
 ---
 
 ![image of meg](https://github.com/meg-gutshall.png?size=200)

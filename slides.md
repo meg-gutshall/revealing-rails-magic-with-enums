@@ -33,10 +33,6 @@ export:
   dark: false
   withClicks: false
   withToc: false
-# enable twoslash, can be boolean, 'dev' or 'build'
-twoslash: false
-# show line numbers in code blocks
-lineNumbers: true
 # controls whether texts in slides are selectable
 selectable: true
 # enable Slidev's context menu, can be boolean, 'dev' or 'build'
@@ -78,22 +74,75 @@ Slide notes
 -->
 
 ---
-layout: author
+src: ./pages/author-slide.md
+hide: false
 ---
 
-![image of meg](https://github.com/meg-gutshall.png?size=150)
+---
+layout: section
+---
 
-# Meg Gutshall
+# What Is an Enum?
 
-I'm a Ruby on Rails developer at Penn Medicine with a passion for open source and tech for good. I'm always smiling, continuously learning, and quick to strike up a conversation. I take advice with a grain of salt & a shot of tequila.
+<!--
+Slide notes
+-->
 
-<footer>
+---
+src: ./pages/back-it-up.md
+hide: false
+---
 
-<mdi-twitter /> [@meg_gutshall](https://x.com/meg_gutshall)
-<mdi-github /> [@meg-gutshall](https://github.com/meg-gutshall)
-<mdi-linkedin /> [in/meghan-gutshall](https://www.linkedin.com/in/meghan-gutshall/)
+---
+src: ./pages/describing-an-enum.md
+hide: false
+---
 
-</footer>
+---
+src: ./pages/defining-an-enum.md
+hide: false
+---
+
+---
+src: ./pages/use-cases.md
+hide: false
+---
+
+---
+src: ./pages/enum-examples.md
+hide: false
+---
+
+---
+src: ./pages/painless-enums.md
+hide: false
+---
+
+---
+layout: fact
+---
+
+# Now... the Magic!
+
+<!--
+Slide notes
+-->
+
+---
+layout: statement
+---
+
+# Now... the Magic!
+
+<!--
+Slide notes
+-->
+
+---
+layout: section
+---
+
+# Now... the Magic!
 
 <!--
 Slide notes
