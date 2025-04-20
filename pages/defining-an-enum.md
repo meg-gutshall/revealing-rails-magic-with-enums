@@ -1,5 +1,5 @@
 ---
-title: Describing an Enum Attribute
+title: Defining an Enum Attribute
 transition: slide-left
 zoom: 0.9
 ---

@@ -1,4 +1,5 @@
 ---
+title: Two Tips for Painless Enums
 transition: slide-left
 ---
 
