@@ -1,0 +1,87 @@
+/* Dracula spec: https://spec.draculatheme.com/ */
+
+:root {
+  /*
+    default theme color
+    can be overrided by uses `themeConfig` option
+   */
+
+  /* Dracula colors: https: //draculatheme.com/contribute */
+  --background: hsl(231, 15%, 18%);
+  --current-line: hsl(232, 14%, 31%);
+  --foreground: hsl(60, 30%, 96%);
+  --comment: hsl(225, 27%, 51%);
+  --cyan: hsl(191, 97%, 77%);
+  --green: hsl(135, 94%, 65%);
+  --orange: hsl(31, 100%, 71%);
+  --pink: hsl(326, 100%, 74%);
+  --purple: hsl(265, 89%, 78%);
+  --red: hsl(0, 100%, 67%);
+  --yellow: hsl(65, 92%, 76%);
+}
+
+/* ℹ️ #app increases the specificity of .dark selector from upstream layout styles */
+#app {
+  #slide-content {
+    --at-apply: text-$foreground bg-$background !important;
+
+    h1,
+    h3,
+    h4,
+    h5,
+    h6 {
+      --at-apply: text-$purple;
+    }
+
+    h2 {
+      --at-apply: text-$cyan;
+    }
+
+    strong {
+      --at-apply: text-$orange;
+    }
+
+    em {
+      --at-apply: text-$yellow;
+    }
+
+    a {
+      --at-apply: text-$green;
+    }
+
+    ul,
+    ol {
+      li::marker {
+        --at-apply: text-$cyan;
+      }
+    }
+
+    h2 + ul {
+      --at-apply: mt-4;
+    }
+  }
+
+  /* Layout: Statement */
+  .slidev-layout.statement {
+    --at-apply: text-center grid h-full;
+
+    h1 {
+      --at-apply: text-7xl font-800;
+    }
+  }
+
+  /* Layout: Author */
+  .slidev-layout.author {
+    h1 {
+      --at-apply: text-4xl font-600 mb-0 next-[p]-mt-2;
+    }
+
+    h1 + p {
+      --at-apply: max-w-60ch mx-auto;
+    }
+
+    footer {
+      --at-apply: pt-12 text-sm flex justify-center items-center;
+    }
+  }
+}
