@@ -46,7 +46,7 @@
     }
 
     a {
-      --at-apply: text-$green;
+      --at-apply: text-$cyan;
     }
 
     ul,
@@ -58,6 +58,17 @@
 
     h2 + ul {
       --at-apply: mt-4;
+    }
+
+    /* Layout: Two-column Header */
+    .slidev-layout.two-cols-header {
+      h1 {
+        --at-apply: text-$cyan;
+      }
+
+      h2 {
+        --at-apply: text-$purple;
+      }
     }
   }
 
