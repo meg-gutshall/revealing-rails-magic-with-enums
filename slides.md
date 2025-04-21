@@ -147,7 +147,7 @@ layout: none
 ---
 
 <!--
-This is the break between the magic and revealing the magician's secrets.
+This is the break between the magic and revealing the magician's secrets. Talk about the tricks.
 -->
 
 ---
@@ -161,14 +161,47 @@ Slide notes
 -->
 
 ---
-layout: section
+src: ./pages/18-documentation.md
+hide: false
 ---
 
-# The Magician's Secrets
+---
+src: ./pages/19-traversing-source-code.md
+hide: false
+---
 
-<!--
-Slide notes
--->
+---
+src: ./pages/20-method-definition.md
+hide: false
+---
+
+---
+src: ./pages/21-private-method.md
+hide: false
+---
+
+---
+src: ./pages/22-setting-prefixes-and-suffixes.md
+hide: false
+---
+
+---
+src: ./pages/23-pairing-values.md
+hide: false
+---
+
+---
+src: ./pages/24-define-enum-methods.md
+hide: false
+---
+
+---
+layout: default
+---
+
+# Is Rails Really Magical?
+
+Yes.
 
 ---
 layout: center
