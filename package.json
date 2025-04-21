@@ -15,5 +15,8 @@
     "slidev-theme-dracula": "^0.2.0",
     "vue": "^3.5.13"
   },
+  "devDependencies": {
+    "hastscript": "^9.0.1"
+  },
   "packageManager": "pnpm@8.9.2+sha1.5f2fa48d614263457cf5d7fb7be8b878da318d87"
 }
