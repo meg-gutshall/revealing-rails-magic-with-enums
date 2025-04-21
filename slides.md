@@ -60,7 +60,7 @@ Slide notes
 -->
 
 ---
-src: ./pages/author-slide.md
+src: ./pages/02_author-slide.md
 hide: false
 ---
 
@@ -75,7 +75,7 @@ Slide notes
 -->
 
 ---
-src: ./pages/back-it-up.md
+src: ./pages/04_back-it-up.md
 hide: false
 ---
 
@@ -88,32 +88,32 @@ layout: statement
 ## Now...
 
 ---
-src: ./pages/describing-an-enum.md
+src: ./pages/05_describing-an-enum.md
 hide: false
 ---
 
 ---
-src: ./pages/defining-an-enum.md
+src: ./pages/06_defining-an-enum.md
 hide: false
 ---
 
 ---
-src: ./pages/use-cases.md
+src: ./pages/07_use-cases.md
 hide: false
 ---
 
 ---
-src: ./pages/enum-examples.md
+src: ./pages/08_enum-examples.md
 hide: false
 ---
 
 ---
-src: ./pages/painless-enums.md
+src: ./pages/09_painless-enums.md
 hide: false
 ---
 
 ---
-src: ./pages/boring-enums.md
+src: ./pages/10_boring-enums.md
 hide: false
 ---
 
@@ -128,17 +128,17 @@ Slide notes
 -->
 
 ---
-src: ./pages/boolean-and-dangerous-methods.md
+src: ./pages/12_boolean-and-dangerous-methods.md
 hide: false
 ---
 
 ---
-src: ./pages/prefixes-and-suffixes.md
+src: ./pages/13_prefixes-and-suffixes.md
 hide: false
 ---
 
 ---
-src: ./pages/scopes.md
+src: ./pages/14_scopes.md
 hide: false
 ---
 
@@ -148,6 +148,16 @@ layout: none
 
 <!--
 This is the break between the magic and revealing the magician's secrets.
+-->
+
+---
+layout: section
+---
+
+# The Magician's Secrets
+
+<!--
+Slide notes
 -->
 
 ---
