@@ -60,7 +60,7 @@ Slide notes
 -->
 
 ---
-src: ./pages/02_author-slide.md
+src: ./pages/02-author-slide.md
 hide: false
 ---
 
@@ -75,7 +75,7 @@ Slide notes
 -->
 
 ---
-src: ./pages/04_back-it-up.md
+src: ./pages/04-back-it-up.md
 hide: false
 ---
 
@@ -88,32 +88,32 @@ layout: statement
 ## Now...
 
 ---
-src: ./pages/05_describing-an-enum.md
+src: ./pages/05-describing-an-enum.md
 hide: false
 ---
 
 ---
-src: ./pages/06_defining-an-enum.md
+src: ./pages/06-defining-an-enum.md
 hide: false
 ---
 
 ---
-src: ./pages/07_use-cases.md
+src: ./pages/07-use-cases.md
 hide: false
 ---
 
 ---
-src: ./pages/08_enum-examples.md
+src: ./pages/08-enum-examples.md
 hide: false
 ---
 
 ---
-src: ./pages/09_painless-enums.md
+src: ./pages/09-painless-enums.md
 hide: false
 ---
 
 ---
-src: ./pages/10_boring-enums.md
+src: ./pages/10-boring-enums.md
 hide: false
 ---
 
@@ -128,17 +128,17 @@ Slide notes
 -->
 
 ---
-src: ./pages/12_boolean-and-dangerous-methods.md
+src: ./pages/12-boolean-and-dangerous-methods.md
 hide: false
 ---
 
 ---
-src: ./pages/13_prefixes-and-suffixes.md
+src: ./pages/13-prefixes-and-suffixes.md
 hide: false
 ---
 
 ---
-src: ./pages/14_scopes.md
+src: ./pages/14-scopes.md
 hide: false
 ---
 

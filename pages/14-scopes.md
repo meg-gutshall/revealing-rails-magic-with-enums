@@ -7,6 +7,8 @@ transition: slide-left
 
 Go over scopes
 
+- Can be turned off by passing `scopes: false`
+
 <!--
 Slide notes
 -->
