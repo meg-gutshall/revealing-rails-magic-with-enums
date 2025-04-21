@@ -10,13 +10,19 @@ zoom: 0.9
 
 There are two ways to define an enum attribute:
 
-- Implicitly using an array of symbols – and a sprinkle of "Rails magic"
-- Explicitly using a hash of key/value pairs
+Implicitly, using an array of symbols (and a sprinkle of "Rails magic" 🪄)
 
-```rb {none|1-3,5|1-2,4-5} filename="app/models/meeting.rb"
+```rb {hide|*} filename="app/models/meeting.rb"
 class Meeting < ApplicationRecord
-  enum location: [:in_person, :remote, :hybrid]           # Implicit definition
-  enum location: { in_person: 0, remote: 1, hybrid: 2 }   # Explicit definition
+  enum location: [:in_person, :remote, :hybrid]
+end
+```
+
+Explicitly using a hash of key/value pairs
+
+```rb {hide|*} filename="app/models/meeting.rb"
+class Meeting < ApplicationRecord
+  enum location: { in_person: 0, remote: 1, hybrid: 2 }
 end
 ```
 

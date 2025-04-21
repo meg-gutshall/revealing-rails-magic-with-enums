@@ -42,12 +42,12 @@ favicon: "/images/favicon.ico"
 # SEO meta tags
 seoMeta:
   ogTitle: Revealing Rails Magic with Enums
-  ogDescription: Get a peek behind the curtain as we break down the wizardry of ActiveRecord Enums through traversing Rails' source code
+  ogDescription: Get a peek behind the curtain as we break down the magic of ActiveRecord Enums through traversing Rails' source code
   # ogImage: https://cover.sli.dev
   # ogUrl: https://example.com
   # twitterCard: summary_large_image
   twitterTitle: Revealing Rails Magic with Enums
-  twitterDescription: Get a peek behind the curtain as we break down the wizardry of ActiveRecord Enums through traversing Rails' source code
+  twitterDescription: Get a peek behind the curtain as we break down the magic of ActiveRecord Enums through traversing Rails' source code
   # twitterImage: https://cover.sli.dev
   # twitterSite: meg-gutshall
   # twitterUrl: https://example.com
@@ -78,6 +78,14 @@ Slide notes
 src: ./pages/back-it-up.md
 hide: false
 ---
+
+---
+layout: statement
+---
+
+# Okay, got all that? 😉
+
+## Now...
 
 ---
 src: ./pages/describing-an-enum.md
@@ -133,3 +141,36 @@ hide: false
 src: ./pages/scopes.md
 hide: false
 ---
+
+---
+layout: none
+---
+
+<!--
+This is the break between the magic and revealing the magician's secrets.
+-->
+
+---
+layout: section
+---
+
+# The Magician's Secrets
+
+<!--
+Slide notes
+-->
+
+---
+layout: center
+class: 'text-center'
+---
+
+# Learn More
+
+[GitHub Repo](https://github.com/meg-gutshall/revealing-rails-magic-with-enums) / [Download Slides](https://github.com/meg-gutshall/revealing-rails-magic-with-enums/blob/4d20a02abc5f3fb41c1fa251374d32dfd2cd945c/slides.md) / [Resources](https://github.com/meg-gutshall/revealing-rails-magic-with-enums/blob/4d20a02abc5f3fb41c1fa251374d32dfd2cd945c/resources.md)
+
+Special thanks to Arvind & Jörn! 💖
+
+<!--
+Slide notes
+-->

@@ -13,7 +13,7 @@ transition: slide-left
 - A blog post's publication status
   - Mutually exclusive: `:draft`, `:published`, `:unpublished`
 - Consecutive steps in a workflow
-  - Mutually exclusive and ordered: `:in_progress`, `:in_review`, `:approved`
+  - Mutually exclusive _and_ ordered: `:in_progress`, `:in_review`, `:approved`
 
 ::right::
 
