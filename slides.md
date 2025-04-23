@@ -113,6 +113,11 @@ hide: false
 ---
 
 ---
+src: ./pages/09-enum-examples.md
+hide: false
+---
+
+---
 src: ./pages/09-painless-enums.md
 hide: false
 ---
