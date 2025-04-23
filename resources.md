@@ -3,9 +3,11 @@
 ## Links
 
 - [What's Up With That!?: ActiveRecord Enums][blog-post] by Meg Gutshall
+- [Ruby on Rails Guides (latest)][rails-guides]
 - [Rails API `ActiveRecord::Enum` Module documentation][api-docs-module]
 - [Rails API `enum` Method documentation][api-docs-method]
 - [`ActiveRecord::Enum` source code in GitHub][enum-source-code]
+- [Ruby Lang site][ruby-lang]
 - [Ruby on Rails - How to Create Perfect Enum in 5 Steps][perfect-enum] by Blazej Pichur
 - [Human Essentials `Distribution` Model examples][human-essentials-distribution] – a [Ruby for Good][rfg] project
 - [CASA `CasaCase` Model example][casa-casa-case] – a [Ruby for Good][rfg] project
@@ -18,3 +20,5 @@
 [human-essentials-distribution]: https://github.com/rubyforgood/human-essentials/blob/d8fa236212a4114d962d4f7ac1002f42ba058c2e/app/models/distribution.rb 'Human Essentials Distribution Model'
 [casa-casa-case]: https://github.com/rubyforgood/casa/blob/42f7ae491bdcc368d04c3af1b41ba6b5f9cb3434/app/models/casa_case.rb 'CASA CasaCase Model'
 [rfg]: https://rubyforgood.org/ 'Ruby for Good website'
+[rails-guides]: https://guides.rubyonrails.org/ 'Ruby on Rails Guides'
+[ruby-lang]: https://www.ruby-lang.org/en/ 'Ruby Lang site'
