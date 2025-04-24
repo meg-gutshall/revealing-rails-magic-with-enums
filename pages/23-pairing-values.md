@@ -5,7 +5,7 @@ transition: slide-left
 
 # No Lonely Values
 
-```rb filename="rails/activerecord/lib/active_record/enum.rb"
+```rb {hide|*} filename="Source Code: rails/activerecord/lib/active_record/enum.rb"
 def _enum(name, values, prefix: nil, suffix: nil, scopes: true, instance_methods: true, validate: false, **options)
   pairs = values.respond_to?(:each_pair) ? values.each_pair : values.each_with_index
   pairs.each do |label, value|
@@ -16,6 +16,13 @@ def _enum(name, values, prefix: nil, suffix: nil, scopes: true, instance_methods
     value_method_names << value_method_name
     define_enum_methods(name, value_method_name, value, scopes, instance_methods)
   end
+end
+```
+
+```rb {hide|*} filename="Our Example: app/models/prescription.rb"
+class Prescription < ApplicationRecord
+  enum distribution_method: [:pick_up, :delivery, :shipping], prefix: 'distribution'  # Implicit – magical 🦄
+  enum status: { received: 0, processing: 10, filled: 20 }                            # Explicit – no magic 💩
 end
 ```
 

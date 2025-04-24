@@ -14,10 +14,12 @@ end
 
 In the Rails console
 
-```sh {hide|*}
+```sh {hide|1-3|5-8}
+# Using a prefix
 car.color_gas_guzzler_green!
 car.color?                        # => "gas_guzzler_green"
 
+# Using a suffix
 car.fuel_option = 1
 car.gas_powered?                  # => false
 car.electric_powered?             # => true

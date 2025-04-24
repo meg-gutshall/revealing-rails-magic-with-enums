@@ -103,22 +103,12 @@ hide: false
 ---
 
 ---
-src: ./pages/07-use-cases.md
-hide: false
----
-
----
 src: ./pages/08-enum-examples.md
 hide: false
 ---
 
 ---
 src: ./pages/09-enum-examples.md
-hide: false
----
-
----
-src: ./pages/09-painless-enums.md
 hide: false
 ---
 
@@ -172,11 +162,6 @@ Slide notes
 
 ---
 src: ./pages/18-documentation.md
-hide: false
----
-
----
-src: ./pages/19-traversing-source-code.md
 hide: false
 ---
 

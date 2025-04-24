@@ -15,7 +15,7 @@ end
 
 In the Rails console
 
-```sh {hide|*}
+```sh {hide|1|1-3|1-5|1-7|1-8|1-9}
 meeting.update(location: 2)
 meeting.remote!
 # The two lines above are equivalent
@@ -23,7 +23,7 @@ meeting.remote?          # => true
 meeting.location         # => "remote"
 
 meeting.hybrid?          # => false
-meeting.hybrid!          # This line is changing the value of meeting's location attribute from role to hybrid
+meeting.hybrid!          # This line is changing the value of meeting's location attribute from remote to hybrid
 meeting.hybrid?          # => true
 ```
 

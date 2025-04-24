@@ -5,13 +5,20 @@ transition: slide-left
 
 # The Private Method
 
-```rb filename="rails/activerecord/lib/active_record/enum.rb"
+```rb {hide|*} filename="Source Code: rails/activerecord/lib/active_record/enum.rb"
 def _enum(name, values, prefix: nil, suffix: nil, scopes: true, instance_methods: true, validate: false, **options)
   # ...
   # ...
   # A WHOOOOLE lotta code...
   # ...
   # ...
+end
+```
+
+```rb {hide|*} filename="Our Example: app/models/prescription.rb"
+class Prescription < ApplicationRecord
+  enum distribution_method: [:pick_up, :delivery, :shipping], prefix: 'distribution'  # Implicit – magical 🦄
+  enum status: { received: 0, processing: 10, filled: 20 }                            # Explicit – no magic 💩
 end
 ```
 

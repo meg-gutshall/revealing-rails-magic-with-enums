@@ -29,5 +29,5 @@ end
 The order of the enum attribute's values **must not** change or the database mapping will go 🤯
 
 <!--
-Slide notes
+Before we add our enum attribute to the database, we have to define it in the model.
 -->

@@ -15,7 +15,7 @@ end
 
 In the Rails console
 
-```sh {hide|*}
+```sh {hide|1|1-2|1-3|5|5-7|5-8}
 meeting.location = nil
 meeting.location.nil?     # => true
 meeting.location          # => nil

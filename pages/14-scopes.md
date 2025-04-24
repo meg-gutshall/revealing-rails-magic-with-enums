@@ -13,7 +13,7 @@ end
 
 In the Rails console
 
-```sh {hide|*}
+```sh {hide|1|1-4|1-7|1-10}
 Meeting.locations       # => { "in_person" => 0, "remote" => 1, "hybrid" => 2 }
 
 Meeting.in_person       # => Returns all in_person meetings
