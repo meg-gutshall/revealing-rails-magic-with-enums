@@ -5,8 +5,6 @@ transition: slide-left
 
 # The Private Method
 
-## Source Code
-
 ```rb filename="rails/activerecord/lib/active_record/enum.rb"
 def _enum(name, values, prefix: nil, suffix: nil, scopes: true, instance_methods: true, validate: false, **options)
   # ...

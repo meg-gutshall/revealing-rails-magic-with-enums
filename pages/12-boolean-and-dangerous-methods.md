@@ -7,7 +7,7 @@ transition: slide-left
 
 Boolean methods end with a question mark (`?`) and return either `true` or `false`. Dangerous methods end with the bang operator (`!`) and return the modified object.
 
-```rb {hide|*}
+```rb {hide|*} filename="app/models/meeting.rb"
 class Meeting < ApplicationRecord
   enum location: { in_person: 0, remote: 1, hybrid: 2 }
 end

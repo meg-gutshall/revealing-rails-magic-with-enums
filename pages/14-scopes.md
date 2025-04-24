@@ -5,7 +5,7 @@ transition: slide-left
 
 # Scopes
 
-```rb
+```rb {*} filename="app/models/meeting.rb"
 class Meeting < ApplicationRecord
   enum location: { in_person: 0, remote: 1, hybrid: 2 }
 end
