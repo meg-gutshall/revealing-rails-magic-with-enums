@@ -5,13 +5,22 @@ transition: slide-left
 
 # Prefixes and Suffixes
 
-Go over prefixes and suffixes
-
 ```rb {hide|*} filename="app/models/car.rb"
 class Car < ApplicationRecord
   enum color: { road_rage_red: 0, electric_avenue_blue: 10, gas_guzzler_green: 20 }, prefix: true
   enum fuel_option: { gas: 0, electric: 1, hybrid: 2 }, suffix: 'powered'
 end
+```
+
+In the Rails console
+
+```sh {hide|*}
+car.color_gas_guzzler_green!
+car.color?                        # => "gas_guzzler_green"
+
+car.fuel_option = 1
+car.gas_powered?                  # => false
+car.electric_powered?             # => true
 ```
 
 <!--
