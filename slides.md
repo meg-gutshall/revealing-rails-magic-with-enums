@@ -206,12 +206,12 @@ hide: false
 ---
 
 ---
-layout: default
+layout: fact
 ---
 
 # Is Rails Really Magical?
 
-Yes.
+Yes! But the secrets can all be found in the codebase.
 
 ---
 layout: center
