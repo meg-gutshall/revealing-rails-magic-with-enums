@@ -14,7 +14,7 @@ Active Record allows us to...
 - Validate models before they get persisted to the database
 - Perform database operations in an object-oriented fashion
 
-\*ORM = Object Relational Mapping
+_\*ORM = Object Relational Mapping_
 
 <!--
 Slide notes

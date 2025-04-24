@@ -6,7 +6,7 @@ transition: slide-left
 
 ## Ruby
 
-> "I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be happy. That is the primary purpose of Ruby language."
+> "I hope to see Ruby help every programmer in the world to be productive, and to enjoy programming, and to be **happy**. That is the primary purpose of Ruby language."
 >
 > — Matz
 
@@ -14,12 +14,12 @@ Ruby was created by Yukihiro "Matz" Matsumoto and publicly released in 1995. It 
 
 ## Rails
 
-Rails is a web application development framework written in the Ruby programming language. It is opinionated software that encourages "The Rails Way."
+Rails is a web application development framework written in the Ruby programming language. It is opinionated software that encourages **The Rails Way**.
 
 The Rails philosophy includes two major guiding principles:
 
-- Don't Repeat Yourself
-- Convention Over Configuration
+- **Don't Repeat Yourself**
+- **Convention Over Configuration**
 
 <!--
 RAILS
