@@ -7,8 +7,7 @@ transition: slide-left
 
 ## Describing an Enum Attribute
 
-- Describe an enum attribute
-  - The enum attribute’s values map to integers in the database
+An enum is a special attribute that maps to an integer value in the table in the database.
 
 ```sh {hide|*}
 rails generate migration AddLocationToMeetings location:integer
