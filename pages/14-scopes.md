@@ -11,7 +11,7 @@ class Meeting < ApplicationRecord
 end
 ```
 
-In the Rails console
+In the Rails console for the `Meeting` class:
 
 ```sh {hide|1|1-4|1-7|1-10}
 Meeting.locations       # => { "in_person" => 0, "remote" => 1, "hybrid" => 2 }
@@ -29,5 +29,5 @@ Meeting.not_hybrid      # => Returns all in_person and remote meetings
 These can be turned off by passing `scopes: false` to the enum definition.
 
 <!--
-Slide notes
+These are class methods that return a collection of instance objects
 -->

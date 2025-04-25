@@ -13,7 +13,7 @@ class Meeting < ApplicationRecord
 end
 ```
 
-In the Rails console
+In the Rails console for an instance of the `Meeting` class:
 
 ```sh {hide|1|1-2|1-3|5|5-7|5-8}
 meeting.location = nil
@@ -28,5 +28,5 @@ meeting.location          # => "in_person"
 
 
 <!--
-Slide notes
+These are instance methods
 -->

@@ -108,11 +108,6 @@ hide: false
 ---
 
 ---
-src: ./pages/09-enum-examples.md
-hide: false
----
-
----
 src: ./pages/10-boring-enums.md
 hide: false
 ---

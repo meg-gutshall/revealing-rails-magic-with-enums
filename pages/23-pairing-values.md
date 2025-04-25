@@ -32,4 +32,8 @@ Starting on Line 261
 - `values.each_pair` is used to identify Hashes
 - `values.each_with_index` generates a mapping of key/value pairs from the Array of values, using each item of the Array as a key and its index as its respective value
   - These index values then get saved to the database
+
+`enum_values = ActiveSupport::HashWithIndifferentAccess.new` creates keys in Hash as String or Symbol
+
+- In the context of this code sample, `enum_values` is allowing the Hash to be accessed without throwing any errors
 -->
