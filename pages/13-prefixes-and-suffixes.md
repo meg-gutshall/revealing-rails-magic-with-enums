@@ -12,7 +12,7 @@ class Car < ApplicationRecord
 end
 ```
 
-In the Rails console for an instance of the `Meeting` class:
+In the Rails console for an instance of the `Car` class:
 
 ```sh {hide|1-3|5-8}
 # Using a prefix

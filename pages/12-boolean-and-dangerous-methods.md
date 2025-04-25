@@ -16,7 +16,7 @@ end
 In the Rails console for an instance of the `Meeting` class:
 
 ```sh {hide|1|1-3|1-5|1-7|1-8|1-9}
-meeting.update(location: 2)
+meeting.update(location: 1)
 meeting.remote!
 # The two lines above are equivalent
 meeting.remote?          # => true
