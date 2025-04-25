@@ -93,17 +93,17 @@ layout: statement
 ## Now...
 
 ---
-src: ./pages/05-describing-an-enum.md
+src: ./pages/07-describing-an-enum.md
 hide: false
 ---
 
 ---
-src: ./pages/06-defining-an-enum.md
+src: ./pages/08-defining-an-enum.md
 hide: false
 ---
 
 ---
-src: ./pages/08-enum-examples.md
+src: ./pages/09-enum-examples.md
 hide: false
 ---
 
@@ -156,32 +156,32 @@ Slide notes
 -->
 
 ---
-src: ./pages/18-documentation.md
+src: ./pages/17-documentation.md
 hide: false
 ---
 
 ---
-src: ./pages/20-method-definition.md
+src: ./pages/18-method-definition.md
 hide: false
 ---
 
 ---
-src: ./pages/21-private-method.md
+src: ./pages/19-private-method.md
 hide: false
 ---
 
 ---
-src: ./pages/22-setting-prefixes-and-suffixes.md
+src: ./pages/20-setting-prefixes-and-suffixes.md
 hide: false
 ---
 
 ---
-src: ./pages/23-pairing-values.md
+src: ./pages/21-pairing-values.md
 hide: false
 ---
 
 ---
-src: ./pages/24-define-enum-methods.md
+src: ./pages/22-define-enum-methods.md
 hide: false
 ---
 
