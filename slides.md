@@ -108,7 +108,17 @@ hide: false
 ---
 
 ---
-src: ./pages/10-boring-enums.md
+src: ./pages/10-enum-examples.md
+hide: false
+---
+
+---
+src: ./pages/11-painless-enums.md
+hide: false
+---
+
+---
+src: ./pages/12-boring-enums.md
 hide: false
 ---
 
@@ -123,17 +133,17 @@ Slide notes
 -->
 
 ---
-src: ./pages/12-boolean-and-dangerous-methods.md
+src: ./pages/14-boolean-and-dangerous-methods.md
 hide: false
 ---
 
 ---
-src: ./pages/13-prefixes-and-suffixes.md
+src: ./pages/15-prefixes-and-suffixes.md
 hide: false
 ---
 
 ---
-src: ./pages/14-scopes.md
+src: ./pages/16-scopes.md
 hide: false
 ---
 
@@ -156,32 +166,37 @@ Slide notes
 -->
 
 ---
-src: ./pages/17-documentation.md
+src: ./pages/19-documentation.md
 hide: false
 ---
 
 ---
-src: ./pages/18-method-definition.md
+src: ./pages/20-traversing-source-code.md
 hide: false
 ---
 
 ---
-src: ./pages/19-private-method.md
+src: ./pages/21-method-definition.md
 hide: false
 ---
 
 ---
-src: ./pages/20-setting-prefixes-and-suffixes.md
+src: ./pages/22-private-method.md
 hide: false
 ---
 
 ---
-src: ./pages/21-pairing-values.md
+src: ./pages/23-setting-prefixes-and-suffixes.md
 hide: false
 ---
 
 ---
-src: ./pages/22-define-enum-methods.md
+src: ./pages/24-pairing-values.md
+hide: false
+---
+
+---
+src: ./pages/25-define-enum-methods.md
 hide: false
 ---
 

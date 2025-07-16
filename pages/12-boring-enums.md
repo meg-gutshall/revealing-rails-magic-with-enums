@@ -26,7 +26,6 @@ meeting.location = "in_person"
 meeting.location          # => "in_person"
 ```
 
-
 <!--
 These are instance methods
 -->
