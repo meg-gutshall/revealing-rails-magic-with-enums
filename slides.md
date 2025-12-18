@@ -93,12 +93,12 @@ layout: statement
 ## Now...
 
 ---
-src: ./pages/07-describing-an-enum.md
+src: ./pages/07-defining-an-enum.md
 hide: false
 ---
 
 ---
-src: ./pages/08-defining-an-enum.md
+src: ./pages/08-describing-an-enum.md
 hide: false
 ---
 
