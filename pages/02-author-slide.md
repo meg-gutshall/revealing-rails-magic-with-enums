@@ -11,7 +11,6 @@ I'm a Ruby on Rails developer at Penn Medicine with a passion for open source an
 
 <footer>
 
-<mdi-twitter /> [@meg_gutshall](https://x.com/meg_gutshall)
 <mdi-github /> [@meg-gutshall](https://github.com/meg-gutshall)
 <mdi-linkedin /> [in/meghan-gutshall](https://www.linkedin.com/in/meghan-gutshall/)
 
