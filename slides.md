@@ -97,11 +97,6 @@ hide: false
 ---
 
 ---
-src: ./pages/10-enum-examples.md
-hide: false
----
-
----
 src: ./pages/11-painless-enums.md
 hide: false
 ---
