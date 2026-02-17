@@ -2,9 +2,9 @@
 theme: dracula
 title: Revealing Rails Magic with Enums
 info: |
-  "Rails magic" is a term many people use to describe the ease with which Rails helps you go from zero to working app so quickly. However, like all other frameworks, there’s no magic to be found – only code!
+  “Rails magic” is a term many people use to describe the ease with which Rails helps you go from zero to working app so quickly. However, like all other frameworks, there’s no magic to be found – only code!
 
-  In this talk, you’ll get a peek behind the curtain as we break down the ActiveRecord Enums module. You’ll learn what it is, how/when to use it, and some cool tricks it provides. Even if you’re not a Rails developer, you will still come away from this talk with new-found knowledge on how to traverse a codebase and gain a better understanding of features built into your language of choice.
+  In this talk, you’ll get a peek behind the curtain as we break down the ActiveRecord Enums module. First, you’ll learn what it is, how/when to use it, and some cool tricks it provides. Then, we'll examine the codebase together and unravel the mystery behind the magic. Rails developers of all skill levels will come away from this talk with new-found knowledge on how to traverse a codebase and gain a better understanding of the ActiveRecord Enums module.
 author: Meg Gutshall
 keywords: rails,enums,ruby
 
