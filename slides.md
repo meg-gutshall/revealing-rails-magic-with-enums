@@ -65,6 +65,11 @@ hide: false
 ---
 
 ---
+src: ./pages/03-expertise.md
+hide: false
+---
+
+---
 layout: section
 ---
 
