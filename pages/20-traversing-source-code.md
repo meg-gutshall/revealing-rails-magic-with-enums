@@ -14,5 +14,5 @@ transition: slide-left
 - Slash command (`/`) search automatically set to the current repo/org/user scope
 
 <!--
-Slide notes
+TODO: Add link to ActiveRecord::Enum code in GitHub
 -->
