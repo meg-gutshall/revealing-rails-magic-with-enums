@@ -80,24 +80,6 @@ Slide notes
 -->
 
 ---
-src: ./pages/04-back-it-up.md
-hide: false
----
-
----
-src: ./pages/05-back-it-up.md
-hide: false
----
-
----
-layout: statement
----
-
-# Okay, got all that? 😉
-
-## Now...
-
----
 src: ./pages/07-describing-an-enum.md
 hide: false
 ---
