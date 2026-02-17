@@ -7,7 +7,7 @@ transition: slide-left
 
 # Meg Gutshall
 
-I'm a Ruby on Rails developer at Penn Medicine with a passion for open source and tech for good. I'm always smiling, continuously learning, and quick to strike up a conversation. I take advice with a grain of salt & a shot of tequila.
+I'm a Senior Application Developer at Penn Medicine with a passion for open source and tech for good.
 
 <footer>
 
