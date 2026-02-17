@@ -1,33 +1,24 @@
 ---
-title: Defining an Enum Attribute
+title: Describing an Enum Attribute
 transition: slide-left
-zoom: 0.9
 ---
 
 # What Is an Enum?
 
-## Defining an Enum Attribute
+## Defining an Enum Attribute in a Migration
 
-There are two ways to define an enum attribute:
-
-Implicitly, using an array of symbols (and a sprinkle of "Rails magic" 🪄)
-
-```rb {hide|*} filename="app/models/meeting.rb"
-class Meeting < ApplicationRecord
-  enum location: [:in_person, :remote, :hybrid]
-end
+```sh {hide|*}
+rails generate migration AddLocationToMeetings location:integer
 ```
 
-Explicitly using a hash of key/value pairs
-
-```rb {hide|*} filename="app/models/meeting.rb"
-class Meeting < ApplicationRecord
-  enum location: { in_person: 0, remote: 1, hybrid: 2 }
+```rb {hide|*} filename="app/db/migrate/date_add_location_to_meetings.rb"
+class AddLocationToMeetings < ActiveRecord::Migration
+  def change
+    add_column :meetings, :location, :integer
+  end
 end
 ```
-
-The order of the enum attribute's values **must not** change or the database mapping will go 🤯
 
 <!--
-Before we add our enum attribute to the database, we have to define it in the model.
+Slide notes
 -->

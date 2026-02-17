@@ -70,17 +70,19 @@ hide: false
 ---
 
 ---
-layout: section
+layout: fact
 ---
 
 # What Is an Enum?
+
+## An enum is a special attribute that maps to an integer value in the table in the database.
 
 <!--
 Slide notes
 -->
 
 ---
-src: ./pages/07-describing-an-enum.md
+src: ./pages/07-defining-an-enum.md
 hide: false
 ---
 
