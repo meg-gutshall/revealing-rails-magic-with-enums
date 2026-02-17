@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "@iconify-json/mdi": "^1.2.3",
-    "@slidev/cli": "^51.5.0",
+    "@slidev/cli": "^51.8.2",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "slidev-theme-dracula": "^0.2.0",
-    "vue": "^3.5.13"
+    "vue": "^3.5.28"
   },
   "devDependencies": {
     "hastscript": "^9.0.1"
   },
-  "packageManager": "pnpm@8.9.2+sha1.5f2fa48d614263457cf5d7fb7be8b878da318d87"
+  "packageManager": "pnpm@10.30.0"
 }
