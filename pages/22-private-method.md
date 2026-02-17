@@ -23,6 +23,8 @@ end
 ```
 
 <!--
+The leading underscore is a common syntax used when naming private methods.
+
 Defined on Line 222
 
 Everything to the right of `values` goes into the `**options` argument.
