@@ -127,21 +127,15 @@ hide: false
 ---
 
 ---
-layout: none
----
-
-<!--
-This is the break between the magic and revealing the magician's secrets. Talk about the tricks.
--->
-
----
 layout: section
 ---
 
 # The Magician's Secrets
 
 <!--
-Slide notes
+Every magician has their secrets, sleight of hand, and tricks of the trade. Some will reveal a little bit here and there, but the masters of magic? They take their secrets to the grave.
+
+Us, we're not magicians. Our family members may think so after we fix their printer for the fourth time... but no, we're Rubyists. And luckily for us, the magic of Rails is out there simply waiting for us to discover it! I'm going to show you how.
 -->
 
 ---
