@@ -190,7 +190,7 @@ class: 'text-center'
 
 [GitHub Repo](https://github.com/meg-gutshall/revealing-rails-magic-with-enums) / [Download Slides](https://github.com/meg-gutshall/revealing-rails-magic-with-enums/blob/4d20a02abc5f3fb41c1fa251374d32dfd2cd945c/slides.md) / [Resources](https://github.com/meg-gutshall/revealing-rails-magic-with-enums/blob/4d20a02abc5f3fb41c1fa251374d32dfd2cd945c/resources.md)
 
-Special thanks to Arvind & Jörn! 💖
+Special thanks to Arvind, Jörn, & Drew! 💖
 
 <!--
 Slide notes
