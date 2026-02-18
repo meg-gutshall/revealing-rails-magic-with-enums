@@ -27,4 +27,6 @@ car.electric_powered?             # => true
 
 <!--
 With color names like these, it can get confusing between vanity and fuel options. Prefixes and suffixes are here to help!
+
+TODO: Look for Drew's string hash example on Meetup
 -->
