@@ -17,7 +17,7 @@ In the Rails console for an instance of the `Car` class:
 ```sh {hide|1-3|5-8}
 # Using a prefix
 car.color_gas_guzzler_green!
-car.color?                        # => "gas_guzzler_green"
+car.color                         # => "gas_guzzler_green"
 
 # Using a suffix
 car.fuel_option = 1

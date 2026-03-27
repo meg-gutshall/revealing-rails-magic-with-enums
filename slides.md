@@ -2,9 +2,9 @@
 theme: dracula
 title: Revealing Rails Magic with Enums
 info: |
-  "Rails magic" is a term many people use to describe the ease with which Rails helps you go from zero to working app so quickly. However, like all other frameworks, there’s no magic to be found – only code!
+  “Rails magic” is a term many people use to describe the ease with which Rails helps you go from zero to working app so quickly. However, like all other frameworks, there’s no magic to be found – only code!
 
-  In this talk, you’ll get a peek behind the curtain as we break down the ActiveRecord Enums module. You’ll learn what it is, how/when to use it, and some cool tricks it provides. Even if you’re not a Rails developer, you will still come away from this talk with new-found knowledge on how to traverse a codebase and gain a better understanding of features built into your language of choice.
+  In this talk, you’ll get a peek behind the curtain as we break down the ActiveRecord Enums module. First, you’ll learn what it is, how/when to use it, and some cool tricks it provides. Then, we'll examine the codebase together and unravel the mystery behind the magic. Rails developers of all skill levels will come away from this talk with new-found knowledge on how to traverse a codebase and gain a better understanding of the ActiveRecord Enums module.
 author: Meg Gutshall
 keywords: rails,enums,ruby
 
@@ -65,35 +65,24 @@ hide: false
 ---
 
 ---
-layout: section
+src: ./pages/03-expertise.md
+hide: false
+---
+
+---
+layout: fact
 ---
 
 # What Is an Enum?
+
+## An enum is a special attribute that maps to an integer value in the table in the database.
 
 <!--
 Slide notes
 -->
 
 ---
-src: ./pages/04-back-it-up.md
-hide: false
----
-
----
-src: ./pages/05-back-it-up.md
-hide: false
----
-
----
-layout: statement
----
-
-# Okay, got all that? 😉
-
-## Now...
-
----
-src: ./pages/07-describing-an-enum.md
+src: ./pages/07-defining-an-enum.md
 hide: false
 ---
 
@@ -104,16 +93,6 @@ hide: false
 
 ---
 src: ./pages/09-enum-examples.md
-hide: false
----
-
----
-src: ./pages/10-enum-examples.md
-hide: false
----
-
----
-src: ./pages/11-painless-enums.md
 hide: false
 ---
 
@@ -148,21 +127,15 @@ hide: false
 ---
 
 ---
-layout: none
----
-
-<!--
-This is the break between the magic and revealing the magician's secrets. Talk about the tricks.
--->
-
----
 layout: section
 ---
 
 # The Magician's Secrets
 
 <!--
-Slide notes
+Every magician has their secrets, sleight of hand, and tricks of the trade. Some will reveal a little bit here and there, but the masters of magic? They take their secrets to the grave.
+
+Us, we're not magicians. Our family members may think so after we fix their printer for the fourth time... but no, we're Rubyists. And luckily for us, the magic of Rails is out there simply waiting for us to discover it! I'm going to show you how.
 -->
 
 ---
@@ -217,7 +190,7 @@ class: 'text-center'
 
 [GitHub Repo](https://github.com/meg-gutshall/revealing-rails-magic-with-enums) / [Download Slides](https://github.com/meg-gutshall/revealing-rails-magic-with-enums/blob/4d20a02abc5f3fb41c1fa251374d32dfd2cd945c/slides.md) / [Resources](https://github.com/meg-gutshall/revealing-rails-magic-with-enums/blob/4d20a02abc5f3fb41c1fa251374d32dfd2cd945c/resources.md)
 
-Special thanks to Arvind & Jörn! 💖
+Special thanks to Arvind, Jörn, & Leon! 💖
 
 <!--
 Slide notes

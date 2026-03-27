@@ -24,5 +24,7 @@ end
 ```
 
 <!--
-Slide notes
+Think twice:
+- A user's role in an app
+- An animal's species
 -->
