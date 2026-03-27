@@ -1,6 +1,6 @@
 # Revealing Rails Magic with Enums
 
-This repo contains the slides for my talk at [Code & Coffee: A Virtual Coffee Conference](https://cfe.dev/events/virtual-coffee-conf-2025/) and the resources I used to create it. I encourage you to present this talk with any adjustments as long as credit is given to myself and those I've cited. If you see anything that needs correcting, kindly raise an Issue or open a Pull Request and you too shall be cited as a contributor to this talk!
+This repo contains the slides for my talk at [Philly.rb](https://www.meetup.com/phillyrb/events/312486772) and the resources I used to create it. I encourage you to present this talk with any adjustments as long as credit is given to myself and those I've cited. If you see anything that needs correcting, kindly raise an Issue or open a Pull Request and you too shall be cited as a contributor to this talk!
 
 ## Slides
 
